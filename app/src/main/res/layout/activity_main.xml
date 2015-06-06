@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#ffdfeaf1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/my_title"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/media_streamer"
+        android:id="@+id/media_streamer_button"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="40dp"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:elevation="10dp"
+        android:background="#ffef5350" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/super_duo_1"
+        android:id="@+id/super_duo1_button"
+        android:layout_below="@+id/media_streamer_button"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/media_streamer_button"
+        android:layout_alignStart="@+id/media_streamer_button"
+        android:layout_alignRight="@+id/media_streamer_button"
+        android:layout_alignEnd="@+id/media_streamer_button"
+        android:elevation="10dp"
+        android:background="#ffef5350" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/super_duo_2"
+        android:id="@+id/super_duo2_button"
+        android:layout_below="@+id/super_duo1_button"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/super_duo1_button"
+        android:layout_alignStart="@+id/super_duo1_button"
+        android:layout_alignRight="@+id/super_duo1_button"
+        android:layout_alignEnd="@+id/super_duo1_button"
+        android:elevation="10dp"
+        android:background="#ffef5350" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ant_terminator"
+        android:id="@+id/ant_terminator_button"
+        android:layout_below="@+id/super_duo2_button"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/super_duo2_button"
+        android:layout_alignStart="@+id/super_duo2_button"
+        android:layout_alignRight="@+id/super_duo2_button"
+        android:layout_alignEnd="@+id/super_duo2_button"
+        android:elevation="10dp"
+        android:background="#ffef5350" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/materialize"
+        android:id="@+id/materialize_app_button"
+        android:layout_below="@+id/ant_terminator_button"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/ant_terminator_button"
+        android:layout_alignStart="@+id/ant_terminator_button"
+        android:layout_alignRight="@+id/ant_terminator_button"
+        android:layout_alignEnd="@+id/ant_terminator_button"
+        android:elevation="10dp"
+        android:background="#ffef5350" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/capstone"
+        android:id="@+id/capstone_app_button"
+        android:layout_below="@+id/materialize_app_button"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/materialize_app_button"
+        android:layout_alignStart="@+id/materialize_app_button"
+        android:layout_alignRight="@+id/materialize_app_button"
+        android:layout_alignEnd="@+id/materialize_app_button"
+        android:elevation="10dp"
+        android:background="#ff1e88e5" />
+</RelativeLayout>
